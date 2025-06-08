@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+}
+html {
+    scroll-behavior: smooth;
+}  
+.nav{
+    display:flex;
+    background-color: rgb(152, 224, 255);
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    text-decoration:none;
+}
+.nav-content{
+    display: flex;
+    width: 40%;
+}
+.nav p{
+    background-color:  rgb(152, 224, 255); 
+    height: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.Navbar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-decoration:none;
+}
+.Navbar a{
+    /* justify-content:center;
+    align-self:center;  */
+    text-decoration: none;
+    /* background-color: aqua; */
+    /* height: 40px;
+    width: 100%; */
+}
+.main-content{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F87%2F0f%2F76%2F870f7643594a316a1d2e3fd5ab45118b.jpg&f=1&nofb=1&ipt=9bd537e6293ea5c3db577dd30005b632995e9c1dc60b537d9fede977c50e53bc&ipo=images);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(36, 51, 65);
+    background-color: rgb(169, 240, 216);
+}
+.main-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 180px;
+    padding-top: 10px;
+}
+.main-content ul{
+    justify-content: center;
+    /* text-decoration: none;   */
+}
+
+.products{
+    background-color: beige;
+    height: 100vh;
+    font-size:100px;
+    padding-top: 20px;
+    background-image:url(assets/wp9047133-166911958.jpg);
+    background-size: cover;
+}
+.prod1{
+    height: 120px;
+    width: 120px;
+    background-image: url(assets/milk-2474993_1280.jpg);
+    background-size: cover;
+}
+.prod2{
+    height: 120px;
+    width: 120px;
+    background-image: url(assets/cheese-575540_1280.png);
+    background-size: cover;
+}
+/* .card{
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(124, 161, 161);
+    height: 400px;
+    width: 270px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.card-images{
+    background-color: bisque;
+    height: 150px;
+    margin-top: 15px;
+    background-size: cover;
+}
+.card-1{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.A5UB6nEtypdlzNceHmQc6QHaE7%26pid%3DApi&f=1&ipt=4ea23ad2201dfd42abae6ccc66589d1af096b3d1dd8439747906bad42a572f18&ipo=images);
+}
+.card-2{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.b3oo7HykcHWyIiFb8zyg7gAAAA%26pid%3DApi&f=1&ipt=bb902b143fb70d5b45c2ed3b09169903c1664a6a8c06522ab6997f7809f759b8&ipo=images);
+
+}
+.card-3{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.wHOwJRYG-ADERSbAhDvR5QHaFB%26pid%3DApi&f=1&ipt=08a42f85563a0f783ef25fe3900e26753156e57c6b361fd1af0b5bdd76bde185&ipo=images);
+
+}
+.card-4{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ESZOi2GdEt1cOo8eNT2k7AHaEH%26pid%3DApi&f=1&ipt=0b2fe25a41406774d521e30c332303e9c9383d16c85d18b99a55287cfe7e3f55&ipo=images);
+
+} */
+
+.farms{
+    background-color: rgb(169, 240, 216);
+    height: 100vh;
+    font-size:100px;
+    padding-top: 20px;
+
+}
+.about{
+    background-color: beige;
+    height: 100vh;
+    font-size:100px;
+    padding-top: 20px;
+
+}
+.contact{
+    background-color: rgb(169, 240, 216);
+    height: 100vh;
+    font-size:100px;
+    padding-top: 20px;
+
+}
+.footer{
+    height: 20vh;
+    background-color: black;
+    color: aliceblue;
+}
